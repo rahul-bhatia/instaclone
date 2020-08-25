@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/logo"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="15dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:id="@+id/emailR" />
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        android:padding="10dp"
+        android:id="@+id/passwordR"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="15dp"
+        android:text="LOGIN"
+        android:padding="10dp"
+        android:id="@+id/loginR"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New to Instaclone? Signup here"
+        android:layout_marginTop="15dp"
+        android:id="@+id/register_user"/>
+
+
+
+</LinearLayout>
